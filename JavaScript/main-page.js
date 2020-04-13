@@ -8,7 +8,7 @@ let gridCells = document.getElementsByClassName("cell");
 
 body.appendChild(btn);
 
-gridCreation(60, 60);
+gridCreation(prompt("How many rows ?", prompt("How many cols ?");
 
 function gridCreation(rows, cols) {
     createRows(rows);
