@@ -1,6 +1,8 @@
 const grid = document.querySelector("#container");
 const body = document.querySelector("body");
 let btn = document.createElement("button");
+btn.textContent = "RESET";
+btn.style.color = "cyan";
 let gridRows = document.getElementsByClassName("rowsGrid");
 let gridCells = document.getElementsByClassName("cell");
 
