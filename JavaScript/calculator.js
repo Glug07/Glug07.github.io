@@ -101,8 +101,9 @@ function subOperands(valueA, valueB) {
     return ("ERROR");
 }
 
-function roundResult(array)
-{
+function roundResult(array) {
+    if (Number.isInteger(array[0]))
+        return (array);
     array[0] = Number(array[0]).toFixed(1);
     return (array);
 }
