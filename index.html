@@ -1,16 +1,79 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="CSS/main-page.css" rel="stylesheet">
-    <link href="CSS/reset.css" rel="stylesheet">
-    <title>ETCH-A-SKETCH</title>
+    <link href="reset.css" rel="stylesheet">
+    <link href="calculator.css" rel="stylesheet">
+    <title>Calculator</title>
 </head>
-<body>
-    <div id="container">
 
-    </div>
+<body>
+    <main id="main-content">
+        <div id="div-calculator">
+            <div id="div-display">
+                <p class="para-display"></p>
+            </div>
+            <div id="div-operand">
+                <div class="operands" value="1">
+                    <p class="para-operands" value="1">1</p>
+                </div>
+                <div class="operands" value="2">
+                    <p class="para-operands" value="2">2</p>
+                </div>
+                <div class="operands" value="3">
+                    <p class="para-operands" value="3">3</p>
+                </div>
+                <div class="operands" value="4">
+                    <p class="para-operands" value="4">4</p>
+                </div>
+                <div class="operands" value="5">
+                    <p class="para-operands" value="5">5</p>
+                </div>
+                <div class="operands" value="6">
+                    <p class="para-operands" value="6">6</p>
+                </div>
+                <div class="operands" value="7">
+                    <p class="para-operands" value="7">7</p>
+                </div>
+                <div class="operands" value="8">
+                    <p class="para-operands" value="8">8</p>
+                </div>
+                <div class="operands" value="9">
+                    <p class="para-operands" value="9">9</p>
+                </div>
+                <div id="zero" class="operands" value="0">
+                    <p class="para-operands" value="0">0</p>
+                </div>
+            </div>
+            <div id="div-operator">
+                <div id="test" class="operators" value="+">
+                    <p class="para-operators" value="+">+</p>
+                </div>
+                <div class="operators" value="-">
+                    <p class="para-operators" value="-">-</p>
+                </div>
+                <div class="operators" value="/">
+                    <p class="para-operators" value="/">/</p>
+                </div>
+                <div class="operators" value="*">
+                    <p class="para-operators" value="*">*</p>
+                </div>
+                <div class="operators" value="=">
+                    <p class="para-operators" value="=">=</p>
+                </div>
+            </div>
+            <div id="div-tool">
+                <div class="tools" id="reset">
+                    <p class="para-tools">AC</p>
+                </div>
+                <div class="tools" id="delete">
+                    <p class="para-tools">DEL</p>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
-<script src="JavaScript/main-page.js"></script>
+<script src="JavaScript/calculator.js"></script>
 </html>
