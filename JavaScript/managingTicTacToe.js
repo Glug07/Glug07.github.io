@@ -1,4 +1,4 @@
-import compose from 'stamp-utils/compose';
+import {init} from './stamp-utils';
 
 let initGame = (function (rows) {
     const grid = document.getElementById('tic-tac-toe-board-id');
